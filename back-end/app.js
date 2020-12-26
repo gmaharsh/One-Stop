@@ -22,10 +22,14 @@ mongoose.connect(connection_url, {
 })
 .catch((error) => {
     console.log("Error:-", error)
-} )
-
-app.get('/', (req, res) => {
-    res.send('Hello World!')
 })
 
+//Routes
+
+app.get('/api', (req, res) => {
+    res.json(["Maharsh", "Rachana", "Vinod"])
+})
+
+
+//Listener
 app.listen(2701, () => console.log(`Server running on port 2701`))

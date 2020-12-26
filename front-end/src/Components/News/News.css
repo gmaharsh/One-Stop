@@ -1,0 +1,50 @@
+.news{
+    flex: 0.4;
+    border: 1px solid black;
+    padding: 20px;
+    /* border-radius: 20px; */
+    box-shadow: 3px 3px 5px 6px #ccc;
+    height: 40vh;
+    overflow-y: scroll;
+}
+
+.news__search{
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.news__search > form{
+    display: flex;
+}
+
+.news__search > form > input{
+    flex: 1;
+    width: 100%;
+    margin-right: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    /* background: black; */
+}
+
+
+.news__searchInput{
+    /* flex: 0.9; */
+    
+}
+
+.news__result{
+    margin-top: 20px;
+    /* overflow-y: scroll; */
+}
+
+.news__search >  form>  button{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #33ccff;
+    /* color: white; */
+    /* width: 25%; */
+    box-shadow: 0 3px 5px 6px #ccc;
+}
